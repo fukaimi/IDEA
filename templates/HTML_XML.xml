@@ -1,0 +1,7 @@
+<templateSet group="HTML/XML">
+  <template name="vue" value="&lt;!DOCTYPE &gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;    &lt;title&gt;Title&lt;/title&gt;&#10;    &lt;script src=&quot;../js/vue.js&quot;&gt;&lt;/script&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;div id=&quot;app&quot;&gt;&#10;&#10;&lt;/div&gt;&#10;&lt;/body&gt;&#10;&lt;script&gt;&#10;    let vue = new Vue({&#10;        el: '#app',&#10;        data: {&#10;&#10;        }&#10;    });&#10;&#10;&lt;/script&gt;&#10;&lt;/html&gt;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

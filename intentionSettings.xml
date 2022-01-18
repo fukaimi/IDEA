@@ -1,0 +1,6 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Java/Declaration/Add Javadoc" />
+    <ignoreAction name="Java/Annotations/编辑方法约定" />
+  </component>
+</application>

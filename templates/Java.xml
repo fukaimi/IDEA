@@ -1,0 +1,42 @@
+<templateSet group="Java">
+  <template name="pbv" value="public void item(Object o) throws Exception{&#10;&#10;}" description="快速创建方法" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pbm" value="public Map item(Object o) throws Exception{&#10;return null;&#10;}" description="快速创建方法" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pbl" value="public List item(Object o) throws Exception{&#10;return null;&#10;}" description="快速生成方法" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="nmap" value="Map map = new HashMap();" description="新建map" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="nls" value="List list = new ArrayList();" description="新建list" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ni" value="int i =  ;" description="新建int" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ns" value="String str = &quot;&quot;;" description="新建String" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="visnull" value="Va" description="判断空" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

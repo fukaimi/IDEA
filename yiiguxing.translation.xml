@@ -1,0 +1,39 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogHeight" value="671" />
+    <option name="newTranslationDialogWidth" value="1037" />
+    <option name="newTranslationDialogX" value="503" />
+    <option name="newTranslationDialogY" value="217" />
+    <histories>
+      <item value="必须字段" />
+      <item value="必须" />
+      <item value="数据权限" />
+      <item value="数据" />
+      <item value="The main pool control state, ctl, is an atomic integer packing two conceptual fields workerCount, indicating the effective number of threads runState, indicating whether running, shutting down etc In order to pack them into one int, we limit workerCount to (2^29)-1 (about 500 million) threads rather than (2^31)-1 (2 billion) otherwise representable. If this is ever an issue in the future, the variable can be changed to be an AtomicLong, and the shift/mask constants below adjusted. But until the need arises, this code is a bit faster and simpler using an int. The workerCount is the number of workers that have been permitted to start and not permitted to stop. The value may be transiently different from the actual number of live threads, for example when a ThreadFactory fails to create a thread when asked, and when exiting threads are still performing bookkeeping before terminating. The user-visible pool size is reported as the current size of the workers set. The runState provides the main lifecycle control, taking on values: RUNNING: Accept new tasks and process queued tasks SHUTDOWN: Don't accept new tasks, but process queued tasks STOP: Don't accept new tasks, don't process queued tasks, and interrupt in-progress tasks TIDYING: All tasks have terminated, workerCount is zero, the thread transitioning to state TIDYING will run the terminated() hook method TERMINATED: terminated() has completed The numerical order among these values matters, to allow ordered comparisons. The runState monotonically increases over time, but need not hit each state. The transitions are: RUNNING -&gt; SHUTDOWN On invocation of shutdown(), perhaps implicitly in finalize() (RUNNING or SHUTDOWN) -&gt; STOP On invocation of shutdownNow() SHUTDOWN -&gt; TIDYING When both queue and pool are empty STOP -&gt; TIDYING When pool is empty TIDYING -&gt; TERMINATED When the terminated() hook method has completed Threads waiting in awaitTermination() will return when the state reaches TERMINATED. Detecting the transition from SHUTDOWN to TIDYING is less straightforward than you'd like because the queue may become empty after non-empty and vice versa during SHUTDOWN state, but we can only terminate if, after seeing that it is empty, we see that workerCount is 0 (which sometimes entails a recheck -- see below)." />
+      <item value="The unique id for an artifact produced by the project group, e.g. maven-artifact. 版本 : 3.0.0+" />
+      <item value="Serializability of a class is enabled by the class implementing the java.io.Serializable interface. Classes that do not implement this interface will not have any of their state serialized or deserialized. All subtypes of a serializable class are themselves serializable. The serialization interface has no methods or fields and serves only to identify the semantics of being serializable. &lt;p&gt;" />
+      <item value="服务名称" />
+      <item value="服务" />
+      <item value="contains" />
+      <item value="Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean." />
+      <item value="接收数据处理" />
+      <item value="接收" />
+      <item value="统一" />
+      <item value="通用" />
+      <item value="民族" />
+      <item value="喝茶" />
+      <item value="反馈" />
+      <item value="人员参保" />
+      <item value="是的撒怒火和" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="1" />
+        <entry key="ENGLISH" value="2" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1629042622102" />
+  </component>
+</application>

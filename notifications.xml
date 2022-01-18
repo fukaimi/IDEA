@@ -1,0 +1,8 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Execution" displayType="NONE" shouldLog="false" />
+    <notification groupId="External Executable Critical Failures" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="http.generation.notifications" displayType="STICKY_BALLOON" />
+    <notification groupId="Material Theme Notifications" displayType="NONE" shouldLog="false" />
+  </component>
+</application>

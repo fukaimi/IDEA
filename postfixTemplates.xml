@@ -1,0 +1,80 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="tmw@userDefined" key=".tmw" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="this.$message.warn($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="tme@userDefined" key=".tme" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="this.$message.error($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="tms@userDefined" key=".tms" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="this.$message.success($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="isnull@userDefined" key=".isnull" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="$EXPR$ == undefined || $EXPR$ == '' || $EXPR$ == null || $EXPR$.length == 0" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="bsubmit@userDefined" key=".bsubmit" provider="builtin.js" language-level="JS_1_5" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="Base.submit(null,$EXPR$).then(result =&gt; {&#10;&#10;}).catch(result =&gt; {&#10;       &#10;})" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="nif@userDefined" key=".nif" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="if ( !$EXPR$ ) {&#10;        &#10;}" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="wsd@userDefined" key=".wsd" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="WrapperResponse.success(&quot;成功&quot;,$EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="isb@userDefined" key=".isb" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="StringUtils.isBlank($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="vinull@userDefined" key=".vinull" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="ValidateUtil.isEmpty($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="oen@userDefined" key=".oen" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="!ObjectUtil.equal($EXPR$,)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="wfd@userDefined" key=".wfd" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="WrapperResponse.fail(&quot;失败&quot;,$EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="re@userDefined" key=".re" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="return $EXPR$;" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="mep@userDefined" key=".mep" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="throw new MbsException($EXPR$);" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="wfs@userDefined" key=".wfs" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="WrapperResponse.fail($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="if_fkm@userDefined" key=".if_fkm" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="if ( $EXPR$ ){&#10;        &#10;}" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="if_else_fkm@userDefined" key=".if_else_fkm" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="if ( $EXPR$ ){&#10;        &#10;} else {&#10;        &#10;}" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="vnotnull@userDefined" key=".vnotnull" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="!ValidateUtil.isEmpty($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="oe@userDefined" key=".oe" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="ObjectUtil.equal($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="wss@userDefined" key=".wss" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="WrapperResponse.success($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+  </component>
+</application>
