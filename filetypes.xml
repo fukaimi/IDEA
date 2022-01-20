@@ -1,14 +1,16 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="space.kts" type="Kotlin" />
-      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping pattern="TA4404DOC.MD" type="Android Room SQL" />
+      <removed_mapping ext="json" approved="true" type="JSON" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="rp" type="PLAIN_TEXT" />
       <mapping ext="mine" type="PLAIN_TEXT" />
+      <removed_mapping ext="yaml" approved="true" type="YAML" />
       <removed_mapping ext="json" approved="true" type="JSON" />
       <removed_mapping ext="yaml" approved="true" type="YAML" />
-      <mapping pattern="TA4404DOC.MD" type="Android Room SQL" />
     </extensionMap>
   </component>
 </application>
