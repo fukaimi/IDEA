@@ -1,6 +1,8 @@
 <application>
   <component name="MaterialThemeConfig">
     <option name="compactTables" value="true" />
+    <option name="highContrast" value="true" />
+    <option name="highlightColorEnabled" value="true" />
     <option name="isHighlightColorEnabled" value="true" />
     <option name="isCompactTables" value="true" />
     <option name="isHighContrast" value="true" />
@@ -12,6 +14,6 @@
     <option name="accentColor" value="84ffff" />
     <option name="selectedTheme" value="DARKER" />
     <option name="userId" value="-2ea68c55:178c5704743:-8000" />
-    <option name="version" value="6.12.2" />
+    <option name="version" value="5.5.0" />
   </component>
 </application>
